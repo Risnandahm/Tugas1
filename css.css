@@ -1,0 +1,39 @@
+body{
+	background: url('bts3.jpg.jpg');
+	background-size: 100% 100%;
+	color: black;
+}
+
+#tulisan-eksternal {
+	color: white;
+}
+
+.box-eksternal {
+	background: #FFD700;
+	margin: 5px;
+	padding: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    
+    .header, 
+    .footer{
+        text-align: center;
+    }
+    .left {
+        width: auto;
+        float: none;
+    }
+    
+    .middle {
+        width: auto;
+        float: none;
+    }
+    
+    .right {
+        width: auto;
+        float: none;
+    }
+
+}
+
